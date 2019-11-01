@@ -38,7 +38,8 @@ public class TestBase {
 	
 	
 	public static void initialization(){
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser"); 
+		String browserName = System.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rameshkumar02\\git\\PageObjectModel_test\\driver\\chromedriver.exe");	
