@@ -44,8 +44,8 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rameshkumar02\\git\\PageObjectModel_test\\driver\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
-		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
+		else if(browserName.equals("firefox")){
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\rameshkumar02\\git\\PageObjectModel_Jenkin\\driver\\geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		
