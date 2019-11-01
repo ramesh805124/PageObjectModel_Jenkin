@@ -44,10 +44,12 @@ public class TestBase {
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rameshkumar02\\git\\PageObjectModel_test\\driver\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
+			System.out.println("chrome driver started");
 		}
 		else if(browserName.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\rameshkumar02\\git\\PageObjectModel_Jenkin\\driver\\geckodriver.exe");	
 			driver = new FirefoxDriver(); 
+			System.out.println("firefox driver started");
 		}
 		
 		
